@@ -17,7 +17,7 @@ margeStartCols = ['C', 'F', 'C', 'F', 'C', 'C', 'F', 'C', 'C', 'F']
 margeEndCols = [':D', ':G', ':D', ':G', ':G', ':D', ':G', ':D', ':D', ':G']
 
 # function to output a progress report with Excel file
-def outputProgressReport(filePath):
+def generateProgressReport(filePath):
     # open Execl file and retrieve a target sheet
     wbTaskList = load_workbook(filePath)
     taskSheet = wbTaskList.active
@@ -99,4 +99,4 @@ def outputProgressReport(filePath):
     return 0
 
 # call the function 
-outputProgressReport('task_list.xlsx')
+generateProgressReport('task_list.xlsx')
