@@ -1,4 +1,4 @@
-# Python Automation Project 1
+# Python Report Generator
 This is an arranged application from my final project for the Python course at college.
 
 ## Application Description
